@@ -1,0 +1,6 @@
+{
+  "_about": "The parts of Sophos-website the manual describes, in order. Authored by hand; add a capability's slug to a section once it is written (Project-Sophos admin/change-record.mjs reflow --repo .).",
+  "title": "Sophos-website: what it can do, and how it got here",
+  "intro": "A nearly empty repository intended for the Sophos website; it holds only a title-only README and the synced Sophos skill.",
+  "sections": []
+}
