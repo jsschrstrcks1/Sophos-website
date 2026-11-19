@@ -1,0 +1,567 @@
+{
+  "format": "lexicon-entity/1",
+  "entity": "change:20261119-skill-sync-state-machines",
+  "_about": "Written by admin/change-record.mjs new. Append-only once on main; a correction is a new entry naming this one in supersedes. docs/lexicon/CHANGE-RECORD.md",
+  "statements": [
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261119-skill-sync-state-machines#task",
+      "content": {
+        "summary": "change:20261119-skill-sync-state-machines task = \"skill-sync-household-20261119\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:skill-sync-household-20261119",
+        "uri": null,
+        "publisher": "committer",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:skill-sync-household-20261119",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-19T21:24:28.535Z",
+        "observed_at": "2026-11-19T21:24:28.535Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "public.change",
+        "entity": "change:20261119-skill-sync-state-machines",
+        "property": "task",
+        "value": "skill-sync-household-20261119",
+        "unit": null,
+        "rank": "normal",
+        "partition": "public"
+      },
+      "classification": "public",
+      "id": "env-92ba7b628e49ecb4"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261119-skill-sync-state-machines#why",
+      "content": {
+        "summary": "change:20261119-skill-sync-state-machines why = \"The state-machines skill changed at its source (Project-Sophos@73fcbc756788) and this copy is declared synced.\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:skill-sync-household-20261119",
+        "uri": null,
+        "publisher": "committer",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:skill-sync-household-20261119",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-19T21:24:28.535Z",
+        "observed_at": "2026-11-19T21:24:28.535Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "public.change",
+        "entity": "change:20261119-skill-sync-state-machines",
+        "property": "why",
+        "value": "The state-machines skill changed at its source (Project-Sophos@73fcbc756788) and this copy is declared synced.",
+        "unit": null,
+        "rank": "normal",
+        "partition": "public"
+      },
+      "classification": "public",
+      "id": "env-d2ed7a98b1097c9a"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261119-skill-sync-state-machines#enables",
+      "content": {
+        "summary": "change:20261119-skill-sync-state-machines enables = \"This repository carries the current state-machines skill, byte-identical to its source.\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:skill-sync-household-20261119",
+        "uri": null,
+        "publisher": "committer",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:skill-sync-household-20261119",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-19T21:24:28.535Z",
+        "observed_at": "2026-11-19T21:24:28.535Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "public.change",
+        "entity": "change:20261119-skill-sync-state-machines",
+        "property": "enables",
+        "value": "This repository carries the current state-machines skill, byte-identical to its source.",
+        "unit": null,
+        "rank": "normal",
+        "partition": "public"
+      },
+      "classification": "public",
+      "id": "env-cb74819f79e98062"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261119-skill-sync-state-machines#untested_reason",
+      "content": {
+        "summary": "change:20261119-skill-sync-state-machines untested_reason = \"a mirrored skill file; skill-sync verified it byte-identical to the source before staging\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:skill-sync-household-20261119",
+        "uri": null,
+        "publisher": "committer",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:skill-sync-household-20261119",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-19T21:24:28.535Z",
+        "observed_at": "2026-11-19T21:24:28.535Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "public.change",
+        "entity": "change:20261119-skill-sync-state-machines",
+        "property": "untested_reason",
+        "value": "a mirrored skill file; skill-sync verified it byte-identical to the source before staging",
+        "unit": null,
+        "rank": "normal",
+        "partition": "public"
+      },
+      "classification": "public",
+      "id": "env-0cc0e9155bdf6880"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261119-skill-sync-state-machines#rests_on",
+      "content": {
+        "summary": "change:20261119-skill-sync-state-machines rests_on = \"tools/skill-sync manifest: a synced skill's copies match its source\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:skill-sync-household-20261119",
+        "uri": null,
+        "publisher": "Tekton",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:skill-sync-household-20261119",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-19T21:24:28.535Z",
+        "observed_at": "2026-11-19T21:24:28.535Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "public.change",
+        "entity": "change:20261119-skill-sync-state-machines",
+        "property": "rests_on",
+        "value": "tools/skill-sync manifest: a synced skill's copies match its source",
+        "unit": null,
+        "rank": "normal",
+        "partition": "public"
+      },
+      "classification": "public",
+      "id": "env-f44b8ad50ab24fd8"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261119-skill-sync-state-machines#costs",
+      "content": {
+        "summary": "change:20261119-skill-sync-state-machines costs = \"one commit per drifted repo, made by skill-sync\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:skill-sync-household-20261119",
+        "uri": null,
+        "publisher": "Tekton",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:skill-sync-household-20261119",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-19T21:24:28.535Z",
+        "observed_at": "2026-11-19T21:24:28.535Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "public.change",
+        "entity": "change:20261119-skill-sync-state-machines",
+        "property": "costs",
+        "value": "one commit per drifted repo, made by skill-sync",
+        "unit": null,
+        "rank": "normal",
+        "partition": "public"
+      },
+      "classification": "public",
+      "id": "env-b70584fecdb7812f"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261119-skill-sync-state-machines#retires",
+      "content": {
+        "summary": "change:20261119-skill-sync-state-machines retires = \"the skill-sync drift blocking every open-claw-stuff push from this machine\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:skill-sync-household-20261119",
+        "uri": null,
+        "publisher": "Tekton",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:skill-sync-household-20261119",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-19T21:24:28.535Z",
+        "observed_at": "2026-11-19T21:24:28.535Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "public.change",
+        "entity": "change:20261119-skill-sync-state-machines",
+        "property": "retires",
+        "value": "the skill-sync drift blocking every open-claw-stuff push from this machine",
+        "unit": null,
+        "rank": "normal",
+        "partition": "public"
+      },
+      "classification": "public",
+      "id": "env-e04072da18e88350"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261119-skill-sync-state-machines#moved",
+      "content": {
+        "summary": "change:20261119-skill-sync-state-machines moved = {}",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:skill-sync-household-20261119",
+        "uri": null,
+        "publisher": "measured",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:skill-sync-household-20261119",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-19T21:24:28.535Z",
+        "observed_at": "2026-11-19T21:24:28.535Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "public.change",
+        "entity": "change:20261119-skill-sync-state-machines",
+        "property": "moved",
+        "value": {},
+        "unit": null,
+        "rank": "normal",
+        "partition": "public"
+      },
+      "classification": "public",
+      "id": "env-48d44bb67b210c59"
+    }
+  ]
+}

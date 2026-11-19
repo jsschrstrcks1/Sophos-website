@@ -8,6 +8,16 @@ A nearly empty repository intended for the Sophos website; it holds only a title
 
 Every change entry, newest first: what it was for, and what it made possible.
 
+### 20261119-skill-sync-state-machines
+
+Task `skill-sync-household-20261119`.
+
+**Why.** The state-machines skill changed at its source (Project-Sophos@73fcbc756788) and this copy is declared synced.
+
+**Enables.** This repository carries the current state-machines skill, byte-identical to its source.
+
+**Untested:** a mirrored skill file; skill-sync verified it byte-identical to the source before staging
+
 ### 20261119-skill-sync-sophos
 
 Task `skill-sync-household-20261119`.
