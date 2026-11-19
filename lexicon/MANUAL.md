@@ -8,6 +8,16 @@ A nearly empty repository intended for the Sophos website; it holds only a title
 
 Every change entry, newest first: what it was for, and what it made possible.
 
+### 20261119-skill-sync-sophos
+
+Task `skill-sync-household-20261119`.
+
+**Why.** The sophos skill changed at its source (ocs-mirror-gr@8886e5a545a2) and this copy is declared synced.
+
+**Enables.** This repository carries the current sophos skill, byte-identical to its source.
+
+**Untested:** a mirrored skill file; skill-sync verified it byte-identical to the source before staging
+
 ### 20261109-skill-sync-four-questions
 
 Task `ocs-mirror-four-questions-20261109`.
